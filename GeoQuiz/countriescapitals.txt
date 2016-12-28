@@ -1,0 +1,20 @@
+Philippines
+Manila
+12.8797
+121.7740
+Thailand
+Bangkok
+15.87
+100.9925
+India
+New Delhi
+20.5937
+104.1954
+China
+Beijing
+36.2048
+138.2529
+Japan
+Tokyo
+36.2048
+138.2529
