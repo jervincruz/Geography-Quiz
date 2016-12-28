@@ -86,6 +86,16 @@ class TableView : UIViewController, UITableViewDataSource, UITableViewDelegate {
         self.performSegueWithIdentifier("goBack", sender: self)
     }
     
+    func tableView(tableView: UITableView, didHighlightRowAtIndexPath indexPath: NSIndexPath) {
+        let cell = tableView.cellForRowAtIndexPath(indexPath)
+        if(indexPath.row == 0){
+        cell?.contentView.backgroundColor = UIColor.greenColor()
+        }
+        else if(indexPath.row != 0){
+        cell?.contentView.backgroundColor = UIColor.redColor()
+        }
+    }
+    
         
     
 }
